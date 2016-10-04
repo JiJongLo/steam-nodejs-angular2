@@ -16,45 +16,34 @@ import { AppState } from './app.service';
     './app.style.css'
   ],
   template: `
-    <nav>
-      <span>
-        <a [routerLink]=" ['./'] ">
-          Index
-        </a>
-      </span>
-      |
-      <span>
-        <a [routerLink]=" ['./home'] ">
-          Home
-        </a>
-      </span>
-      |
-      <span>
-        <a [routerLink]=" ['./detail'] ">
-          Detail
-        </a>
-      </span>
-      |
-      <span>
-        <a [routerLink]=" ['./about'] ">
-          About
-        </a>
-      </span>
-    </nav>
-
+        <header class="header">
+        <div class="top-bloc">
+            <div class="logo"><img src="img/logo.png" alt=""></div>
+            <div class="meny">
+                <ul>
+                    <li class="current"><a href="#1">Home</a></li>
+                    <li><a href="#2">Get Started</a></li>
+                    <li><a href="#3">How it works</a></li>
+                    <li><a href="#4">Pricing</a></li>
+                    <li><a href="#5">Support</a></li>
+                </ul>
+            </div>
+            <div class="header-bottom">
+                <ul>
+                    <li class="login"><a href="#log">Login / Signup</a></li>
+                    <li class="list"><a href="#list">Get Listed Today</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-header">
+            <p>Find the <span>next event</span> you'll want <span>to attend.</span></p>
+        </div>
+    </header>
     <main>
       <router-outlet></router-outlet>
     </main>
-
-    <pre class="app-state">this.appState.state = {{ appState.state | json }}</pre>
-
     <footer>
-      <span>WebPack Angular 2 Starter by <a [href]="url">@AngularClass</a></span>
-      <div>
-        <a [href]="url">
-          <img [src]="angularclassLogo" width="25%">
-        </a>
-      </div>
+     
     </footer>
   `
 })

@@ -146,7 +146,14 @@ module.exports = function(options) {
           test: /\.json$/,
           loader: 'json-loader'
         },
-
+        {
+          test: /\.scss$/,
+          loaders: ["style", "css", "sass"]
+        },
+        // the url-loader uses DataUrls.
+        // the file-loader emits files.
+        { test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "url-loader?limit=10000&mimetype=application/font-woff" },
+        { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file-loader" },
         /*
          * to string and css loader support for *.css files
          * Returns file content as string
