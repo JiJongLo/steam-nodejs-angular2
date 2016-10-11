@@ -18,7 +18,7 @@ import { AppState } from './app.service';
   template: `
         <header class="header">
         <div class="top-bloc">
-            <div class="logo"><img src="img/logo.png" alt=""></div>
+            <div class="logo"><img src="../assets/img/logo.png" alt=""></div>
             <div class="meny">
                 <ul>
                     <li class="current"><a href="#1">Home</a></li>
@@ -42,15 +42,13 @@ import { AppState } from './app.service';
     <main>
       <router-outlet></router-outlet>
     </main>
-    <footer>
-     
+    <footer>     
     </footer>
   `
 })
 export class App {
-  angularclassLogo = 'assets/img/angularclass-avatar.png';
-  name = 'Angular 2 Webpack Starter';
-  url = 'https://twitter.com/AngularClass';
+  name = 'Steam';
+  url = '#';
 
   constructor(
     public appState: AppState) {
