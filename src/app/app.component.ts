@@ -16,29 +16,7 @@ import { AppState } from './app.service';
     './app.style.css'
   ],
   template: `
-        <header class="header">
-        <div class="top-bloc">
-            <div class="logo"><img src="../assets/img/logo.png" alt=""></div>
-            <div class="meny">
-                <ul>
-                    <li class="current"><a href="#1">Home</a></li>
-                    <li><a href="#2">Get Started</a></li>
-                    <li><a href="#3">How it works</a></li>
-                    <li><a href="#4">Pricing</a></li>
-                    <li><a href="#5">Support</a></li>
-                </ul>
-            </div>
-            <div class="header-bottom">
-                <ul>
-                    <li class="login"><a href="#log">Login / Signup</a></li>
-                    <li class="list"><a href="#list">Get Listed Today</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="text-header">
-            <p>Find the <span>next event</span> you'll want <span>to attend.</span></p>
-        </div>
-    </header>
+    <my-header></my-header>
     <main>
       <router-outlet></router-outlet>
     </main>
