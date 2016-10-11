@@ -19,7 +19,7 @@ import {Header} from './header.component';
 import { About } from './about';
 import { NoContent } from './no-content';
 import { XLarge } from './home/x-large';
-
+import {Map} from './home/map';
 // Application wide providers
 const APP_PROVIDERS = [
   ...APP_RESOLVER_PROVIDERS,
@@ -42,6 +42,7 @@ type StoreType = {
     Header,
     About,
     Home,
+    Map,
     NoContent,
     XLarge
   ],

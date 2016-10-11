@@ -1,0 +1,30 @@
+.map {
+  width: 100%;
+  height: 485px;
+  background: #333333;
+}
+
+#map {
+  height: 480px;
+}
+
+h1 {
+  color: #fe2232;
+}
+
+#map img {
+  width: 300px;
+  height: 300px;
+  margin: -80px 0;
+}
+
+#map .content {
+  background: url("../../../assets/img/img-bloc1.png") no-repeat;
+}
+
+#map span {
+  float: left;
+  margin: .5em 10px .5em 0;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}

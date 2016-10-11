@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 import { AppState } from '../app.service';
 import { Title } from './title';
+import {Map} from './map';
 import { XLarge } from './x-large';
 
 @Component({
@@ -15,6 +16,9 @@ import { XLarge } from './x-large';
   ],
   // Our list of styles in our component. We may add more to compose many styles together
   styleUrls: [ './home.style.css' ],
+  declarations: [
+    Map
+  ],
   // Every Angular template is first compiled by the browser before Angular runs it's compiler
   templateUrl: './home.template.html'
 })
