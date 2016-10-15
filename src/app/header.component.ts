@@ -1,9 +1,7 @@
 import {Component} from "@angular/core";
 @Component({
   selector: 'my-header',
-  styleUrls: [
-    'header.style.scss'
-  ],
+  styleUrls: ['./header.style.css'],
   template: `
     <header class="header">
         <div class="top-bloc">
@@ -28,8 +26,7 @@ import {Component} from "@angular/core";
             <p>Find the <span>next event</span> you'll want <span>to attend.</span></p>
         </div>
     </header>
-    `,
-  styles: []
+    `
 })
 export class Header {
 

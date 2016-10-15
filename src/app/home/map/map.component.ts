@@ -1,14 +1,9 @@
 import {Component} from '@angular/core';
+import {MapService} from './map.service';
 @Component({
-  // The selector is what angular internally uses
-  // for `document.querySelectorAll(selector)` in our index.html
-  // where, in this case, selector is the string 'home'
-  selector: 'map-home',  // <home></home>
-
-  // Our list of styles in our component. We may add more to compose many styles together
-  styleUrls: ['./map.scss'],
-  styles: [],
-  // Every Angular template is first compiled by the browser before Angular runs it's compiler
+  selector: 'map-home',
+  styleUrls: ['./map.css'],
+  provides: [MapService],
   template: `<div class="map">
                 <div id="map"></div>
               </div>`
@@ -16,15 +11,13 @@ import {Component} from '@angular/core';
 export class Map {
   // Set our default values
   localState = {
-
+    initCoords: [51.594561, 25.345392],
+    markers: []
   };
   // TypeScript public modifiers
-  constructor() {
-
+  constructor(private mapService:MapService) {
   }
-
   ngOnInit() {
-    // console.log('hello `Home` component');
-    // this.title.getData().subscribe(data => this.data = data);
+    this.mapService.setCoords(this.localState.initCoords, this.localState.markers)
   }
 }
