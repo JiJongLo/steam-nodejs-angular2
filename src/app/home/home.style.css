@@ -262,3 +262,19 @@
   right: 5px;
 }
 
+.button input {
+  width: 200px;
+  height: 40px;
+  margin: 30px auto 40px auto;
+  border: 1px solid #e4e4e4;
+  display: block;
+  background: #fafafa;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #8e9498;
+  cursor: pointer;
+}
+
+.button input:hover {
+  color: #646464;
+}

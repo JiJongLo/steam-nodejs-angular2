@@ -20,8 +20,7 @@ import { AppState } from './app.service';
     <main>
       <router-outlet></router-outlet>
     </main>
-    <footer>     
-    </footer>
+    <my-footer></my-footer>
   `
 })
 export class App {
