@@ -4,18 +4,16 @@ import 'rxjs/Rx';
 
 @Injectable()
 export class MapService {
-  constructor(public http:Http) {
-    System.import('path/to/your/module').then(refToLoadedModule => {
-        refToLoadedModule.someFunction();
-      }
-    )
+  constructor(public http: Http) {
   };
 
-  Apikey:String = 'AIzaSyD8JwwhAGp7e8NcYydH1ZjjF-H7Z_AYExc';
-
   setCoords(coords:Array, markers:Array) {
-
-    return {};
+    var directionsDisplay = new google.maps.DirectionsRenderer;
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 7,
+      center: {lat: coords[0], lng: coords[1]}
+    });
+    directionsDisplay.setMap(map);
   }
 }
 
