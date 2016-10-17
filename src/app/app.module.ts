@@ -16,6 +16,8 @@ import { APP_RESOLVER_PROVIDERS } from './app.resolver';
 import { AppState, InteralStateType } from './app.service';
 import { Home } from './home';
 import {Header} from './header.component';
+import {CardList} from './home/card-info/card-list.component';
+import {CardComponent} from './home/card-info/card.component';
 import {Footer} from './footer.component';
 import { About } from './about';
 import { NoContent } from './no-content';
@@ -43,6 +45,8 @@ type StoreType = {
     Header,
     Footer,
     About,
+    CardList,
+    CardComponent,
     Home,
     Map,
     NoContent,

@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { AppState } from '../app.service';
-import {Map} from './map';
 import {MapService} from './map/map.service';
 
 @Component({
@@ -9,9 +8,6 @@ import {MapService} from './map/map.service';
     MapService
   ],
   styleUrls: [ './home.style.css' ],
-  declarations: [
-    Map
-  ],
   templateUrl: './home.template.html'
 })
 export class Home {

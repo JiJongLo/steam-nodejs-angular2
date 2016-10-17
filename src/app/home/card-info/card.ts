@@ -4,15 +4,17 @@
 export class Card {
   image: string;
   timeLaying: string;
+  title:string;
   text: string;
   organizers: string;
   place: string;
   malePercent: number;
   femalePercent: number;
 
-  constructor(image: string, timeLaying: string, text: string, organizers: string, place: string, malePercent: number, femalePercent: number) {
+  constructor(image:string, timeLaying:string, title:string, text:string, organizers:string, place:string, malePercent:number, femalePercent:number) {
     this.image = image;
     this.timeLaying = timeLaying;
+    this.title = title;
     this.text = text;
     this.organizers = organizers;
     this.place = place;
