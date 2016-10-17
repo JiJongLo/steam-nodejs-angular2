@@ -7,9 +7,20 @@ import {CardComponent} from "./card.component";
 @Component({
     selector: 'card-list',
     declarations: [CardComponent],
+    styles: [`
+        .bloc-content {
+          width: 100%;
+          display: -webkit-box;
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;          
+          -webkit-flex-flow: row wrap;
+          justify-content: space-around
+        }
+    `],
     providers: [CardService],
-    styleUrls: ['./cards-list.style.css'],
-  template: `
+    template: `
         <div class="bloc-content">
             <card-info *ngFor="let card of cards" [card]="card"></card-info>     
         </div>`

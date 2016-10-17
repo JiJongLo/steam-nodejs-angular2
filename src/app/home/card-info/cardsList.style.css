@@ -1,10 +1,4 @@
-.bloc-content {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.bloc-content .bloc1 {
+.bloc1 {
     max-width: 348px;
     height: 540px;
     background: white;
@@ -14,11 +8,6 @@
     display: flex;
     flex-wrap: wrap;
 }
-
-.conteiner1 {
-    max-width: 348px;
-}
-
 .conteiner2 {
     max-width: 348px;
     margin-left: 50px;

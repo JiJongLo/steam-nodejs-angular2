@@ -26,8 +26,8 @@
     "text": "Join us for creative holiday activities - this week with Ashley & Letty! Let your 8-13 year olds to join to help burn some of that pent-up creative energy on our fun artist led workshops. You can book all three days, or just one at a time...",
     "organizers": "Fun Factory Wildeshausen",
     "place": "Am Umspannwerk 7, Wildeshausen, 27793, Germany",
-    "malePercent": 13,
-    "femalePercent": 87
+    "malePercent": 50,
+    "femalePercent": 50
   },
   {
     "image": "img-bloc4.png",
@@ -36,8 +36,8 @@
     "text": "Join us for creative holiday activities - this week with Ashley & Letty! Let your 8-13 year olds to join to help burn some of that pent-up creative energy on our fun artist led workshops. You can book all three days, or just one at a time...",
     "organizers": "Fun Factory Wildeshausen",
     "place": "Am Umspannwerk 7, Wildeshausen, 27793, Germany",
-    "malePercent": 13,
-    "femalePercent": 87
+    "malePercent": 45,
+    "femalePercent": 55
   },
   {
     "image": "img-bloc5.png",
@@ -46,8 +46,8 @@
     "text": "Join us for creative holiday activities - this week with Ashley & Letty! Let your 8-13 year olds to join to help burn some of that pent-up creative energy on our fun artist led workshops. You can book all three days, or just one at a time...",
     "organizers": "Fun Factory Wildeshausen",
     "place": "Am Umspannwerk 7, Wildeshausen, 27793, Germany",
-    "malePercent": 13,
-    "femalePercent": 87
+    "malePercent": 10,
+    "femalePercent": 90
   },
   {
     "image": "img-bloc6.png",
@@ -56,7 +56,47 @@
     "text": "Join us for creative holiday activities - this week with Ashley & Letty! Let your 8-13 year olds to join to help burn some of that pent-up creative energy on our fun artist led workshops. You can book all three days, or just one at a time...",
     "organizers": "Fun Factory Wildeshausen",
     "place": "Am Umspannwerk 7, Wildeshausen, 27793, Germany",
-    "malePercent": 13,
-    "femalePercent": 87
+    "malePercent": 5,
+    "femalePercent": 95
+  },
+  {
+    "image": "img-bloc6.png",
+    "timeLaying": "Aug 17, 2013  02:00pm - 08:00pm IST",
+    "title": "Summer Art Club - Week 1/3",
+    "text": "Join us for creative holiday activities - this week with Ashley & Letty! Let your 8-13 year olds to join to help burn some of that pent-up creative energy on our fun artist led workshops. You can book all three days, or just one at a time...",
+    "organizers": "Fun Factory Wildeshausen",
+    "place": "Am Umspannwerk 7, Wildeshausen, 27793, Germany",
+    "malePercent": 18,
+    "femalePercent": 82
+  },
+  {
+    "image": "img-bloc3.png",
+    "timeLaying": "Aug 17, 2013  02:00pm - 08:00pm IST",
+    "title": "Summer Art Club - Week 1/3",
+    "text": "Join us for creative holiday activities - this week with Ashley & Letty! Let your 8-13 year olds to join to help burn some of that pent-up creative energy on our fun artist led workshops. You can book all three days, or just one at a time...",
+    "organizers": "Fun Factory Wildeshausen",
+    "place": "Am Umspannwerk 7, Wildeshausen, 27793, Germany",
+    "malePercent": 60,
+    "femalePercent": 40
+  },
+  {
+    "image": "img-bloc2.png",
+    "timeLaying": "Aug 17, 2013  02:00pm - 08:00pm IST",
+    "title": "Summer Art Club - Week 1/3",
+    "text": "Join us for creative holiday activities - this week with Ashley & Letty! Let your 8-13 year olds to join to help burn some of that pent-up creative energy on our fun artist led workshops. You can book all three days, or just one at a time...",
+    "organizers": "Fun Factory Wildeshausen",
+    "place": "Am Umspannwerk 7, Wildeshausen, 27793, Germany",
+    "malePercent": 95,
+    "femalePercent": 5
+  },
+  {
+    "image": "img-bloc1.png",
+    "timeLaying": "Aug 17, 2013  02:00pm - 08:00pm IST",
+    "title": "Summer Art Club - Week 1/3",
+    "text": "Join us for creative holiday activities - this week with Ashley & Letty! Let your 8-13 year olds to join to help burn some of that pent-up creative energy on our fun artist led workshops. You can book all three days, or just one at a time...",
+    "organizers": "Fun Factory Wildeshausen",
+    "place": "Am Umspannwerk 7, Wildeshausen, 27793, Germany",
+    "malePercent": 10,
+    "femalePercent": 90
   }
 ]

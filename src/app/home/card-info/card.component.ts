@@ -32,9 +32,7 @@ import {Card} from "./card";
                 </div>
             </div>
     `,
-  styles: [`
-       
-    `]
+  styleUrls: ['./cardsList.style.css']
 })
 export class CardComponent {
   constructor() {
