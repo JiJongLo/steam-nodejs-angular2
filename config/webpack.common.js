@@ -83,6 +83,10 @@ module.exports = function(options) {
       modules: [helpers.root('src'), 'node_modules'],
 
     },
+    externals: {
+      'googleMap': 'google'
+    },
+
 
     /*
      * Options affecting the normal modules.

@@ -15,9 +15,9 @@ export class Map {
     markers: []
   };
   // TypeScript public modifiers
-  constructor(private mapService:MapService) {
+  constructor(private _mapService:MapService) {
   }
   ngOnInit() {
-    this.mapService.setCoords(this.localState.initCoords, this.localState.markers)
+    this._mapService.setCoords(this.localState.initCoords, this.localState.markers)
   }
 }
