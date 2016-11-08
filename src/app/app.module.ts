@@ -22,6 +22,7 @@ import {Footer} from './footer.component';
 import { About } from './about';
 import { NoContent } from './no-content';
 import { XLarge } from './home/x-large';
+import {MaterialModule} from '@angular/material';
 import {Map} from './home/map';
 // Application wide providers
 const APP_PROVIDERS = [
@@ -54,6 +55,7 @@ type StoreType = {
   ],
   imports: [ // import Angular's modules
     BrowserModule,
+    MaterialModule.forRoot(),
     FormsModule,
     HttpModule,
     RouterModule.forRoot(ROUTES, { useHash: true })

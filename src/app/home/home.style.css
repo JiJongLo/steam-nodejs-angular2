@@ -28,6 +28,15 @@
 
 }
 
+.bloc-content {
+  position: relative;
+}
+
+.bloc-content md-fab {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
 .fix-bar-bloc span {
   color: #a8a8a8;
   padding: 15px 10px;

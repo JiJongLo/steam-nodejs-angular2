@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var mongooseUniqueValidator = require('mongoose-unique-validator');
 
-var schema = new Schema({
+var Card = new Schema({
     baseUrlImage: {type: String, required: true},
     title: {type: String, required: true},
     organizers: {type: String, required: true},
@@ -13,4 +13,4 @@ var schema = new Schema({
         female: Number
     }
 });
-module.exports = mongoose.model('Card', schema);
+module.exports = mongoose.model('Card', Card);
